@@ -1,4 +1,4 @@
-package com.himanshumantri.springdatajpspoc.service;
+package com.himanshumantri.springdatajpapoc.service;
 
 import java.util.List;
 
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.himanshumantri.springdatajpapoc.repository.CustomerRepository;
 import com.himanshumantri.springdatajpapoc.repository.model.Customer;
 import com.himanshumantri.springdatajpapoc.request.AddCustomerRequest;
+
 
 @Service
 public class CustomerService {

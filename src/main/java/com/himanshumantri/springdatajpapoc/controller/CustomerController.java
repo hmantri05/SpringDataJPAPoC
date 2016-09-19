@@ -1,4 +1,4 @@
-package com.himanshumantri.springdatajpspoc.controller;
+package com.himanshumantri.springdatajpapoc.controller;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.himanshumantri.springdatajpapoc.repository.model.Customer;
 import com.himanshumantri.springdatajpapoc.request.AddCustomerRequest;
-import com.himanshumantri.springdatajpspoc.service.CustomerService;
+import com.himanshumantri.springdatajpapoc.service.CustomerService;
 
 @RestController
 @RequestMapping(value="/customer")
